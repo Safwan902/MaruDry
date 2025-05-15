@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - MaruDryFruit</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <h2 class="logo">Maru<span>DryFruit</span></h2>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul id="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="product.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a href="index.html" class="btn order-btn">Sign Up / Login</a>
+  </nav>
+</header>
+
+<!-- Contact Section -->
+<section class="contact-section">
+  <h1>Contact <span>Us</span></h1>
+  <p>We'd love to hear from you! Please fill out the form below.</p>
+
+  <div class="contact-container">
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p><strong>Phone:</strong> +92-XXX-XXX-XXX</p>
+      <p><strong>Email:</strong> support@marudryfruit.com</p>
+      <p><strong>Location:</strong> Karachi, Pakistan</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="footer-map">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7231.479513396159!2d67.0011365!3d24.8607348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e05f53670e5%3A0xf7f3dd37fbc72c28!2sKarachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1684228210000!5m2!1sen!2s" 
+    width="100%" 
+    height="100%" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</footer>
+
+
+
+<script>
+  document.getElementById("menu-toggle").addEventListener("click", function () {
+    document.getElementById("nav-links").classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>
